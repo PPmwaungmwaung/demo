@@ -7,7 +7,7 @@ Todo
 ### 2. Docker 구성
     1. Caddy, Spring boot, MySQL 이미지와 컨테이너 생성 및 관리
     2. 수신한 요청을 Caddy 서버로 전달
-    3. 수신한 JAR 파일 Update 요청을 메인 서버에 반영 및 재실행
+    3. 이미지 파일을 수신 => 기존 메인 서버 컨테이너 삭제 => 수신한 이미지로 컨테이너 재생성 => 재실행
 ### 3. 리버스 프록시 서버 (Caddy)
     1. 수신한 요청을 Spring boot 또는 MySQL 서버로 전달 
 ### 4. DB 서버 (MySQL)
